@@ -1,0 +1,285 @@
+@media (max-width: 1136px){
+    .grid{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
+
+
+
+
+@media (max-width: 990px){
+    .promo-title{
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .num a{
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 963px){
+    .banner-bg{
+        display: none;
+    }
+
+    .promo-text-bottom{
+        display: inline-block;
+    }
+
+    .slide-text{
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 836px){
+    .burger-menu{
+        display: none;
+    }
+
+}
+
+@media (max-width: 835px){
+    .promo-content{
+        padding-top: 27px;
+    }
+    .nav{
+        display: none;
+    }
+
+    .num{
+        display: none;
+    }
+
+    .promo-title{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .promo-sub-title{
+        font-size: 22px;
+    }
+
+    .banner-human-img{
+        margin-top: 15px;
+    }
+
+    .prices-grid{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .prices-popup{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .prices-popup:last-child{
+       
+        margin-bottom: 0px;
+    }
+
+    .swiper-container{
+        height: 100%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next{
+        display: none;
+    }
+
+    .swiper-pagination-bullet{
+        visibility: visible;
+    }
+
+    .swiper-pagination{
+        position: relative;
+        margin-top: 36px;
+    }
+
+    .slide-text{
+        display: none;
+    }
+
+    .swiper-slide{
+        
+       flex-direction: column;
+    }
+
+    .slide-info{
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .slider-button{
+        visibility: visible;
+    }
+
+    /*======footer=======*/
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-2{
+        margin-bottom: 10px;
+    }
+
+    
+}
+
+@media (max-width: 715px){
+    .promo-text-bottom{
+        display: none;
+    }
+
+    .promo-button-border, 
+    .promo-button{
+        position: relative;
+        width: 292px;
+        height: 60px;
+        bottom: 0;
+        
+    }
+
+    .promo-button-border{
+        margin: 0;
+        bottom: -367px;
+    }
+    
+    .form-btn{
+        bottom: 0;
+        width: 250px;
+        height: 50px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    
+
+    .promo{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        z-index: 2;
+
+
+    }
+
+    .promo-title{
+        text-align: center;
+    }
+
+
+    .promo-sub-title{
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .promo-text{
+        margin-top: 17px;
+    }
+    
+    .banner-human-img{
+        width: 258px;
+        height: 396px;
+    }
+    
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 20%;
+        
+
+    }
+
+    .banner-human{
+        float: left;
+        position: relative;
+        top: -70px;
+        
+
+        z-index: 1;
+    }
+
+    .prices-popup{
+        width: 70%;
+    }
+
+
+}
+
+@media (max-width: 544px){
+    .grid-subtitle{
+        display: none;
+    }
+
+    .grid-text{
+        display: flex;
+        align-items: center;
+    }
+
+    .grid-title{
+        width: 100%;
+    }
+    .grid-item{
+        width: 100%;
+    }
+
+    .all-prices{
+        display: inline-block;
+    }
+
+    .slider-subtitle{
+        display: none;
+    }
+}
+
+@media (max-width: 472px){
+    .banner{
+        position: relative;
+        left: 0px;
+    }
+
+    .logo a{
+        font-size: 20px;
+    }
+    .grid-title{
+        width: 50%;
+    }
+
+    .prices-popup{
+        width: 100%;
+        border-style: none;
+        background-color: #F8FBFF;
+    }
+
+    .map{
+        position: relative;
+        top: 50px;
+    }
+
+    
+}
+
+@media (max-width: 320px){
+    .lead-title{
+        font-size: 20px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .sub-title{
+        display: none;
+    }
+}
